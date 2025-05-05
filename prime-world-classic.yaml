@@ -36,7 +36,7 @@ script:
 
         file: $HOME/.local/share/applications/prime-world-classic.desktop
 
-  install_complete_text: Run Prime World Classic launcher from the .desktop file (from your operating system) - NOT from the Lutris, in Lutris - exe, but you need to launch the native Linux launcher first. Please help us if you know how to combine native Linux launcher with exe game in Lutris - we tried. DO NO click Launch here.
+  install_complete_text: Run Prime World Classic launcher from the .desktop file (from your operating system) - NOT from the Lutris, in Lutris - exe, but you need to launch the native Linux launcher first. Please help us if you know how to combine native Linux launcher with exe game in Lutris - we tried. DO NOT click Launch here.
 
   system:
     gamescope: true
