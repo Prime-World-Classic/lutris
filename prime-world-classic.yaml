@@ -1,0 +1,27 @@
+name: Prime World Classic
+game_slug: prime-world-classic
+slug: prime-world-classic
+version: 2.3.0
+year: 2025
+runner: wine
+
+script:
+
+  files:
+    - archive: https://github.com/Prime-World-Classic/Prime-World/releases/download/2.3.0L/Prime_World_Classic_Test.tar.gz
+
+  game:
+    arch: win32
+    exe: $GAMEDIR/Game/Bin/PW_Game.exe
+    prefix: $GAMEDIR/prefix
+
+  installer:
+    - extract:
+        file: archive
+    - execute:
+        command: $GAMEDIR/update.sh
+
+  wine:
+    arch: win32
+    version: wine-ge-8-26-x86_64
+    esync: false
