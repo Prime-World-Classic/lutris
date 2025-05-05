@@ -8,7 +8,7 @@ runner: wine
 script:
 
   files:
-    - archive: https://github.com/Prime-World-Classic/Prime-World/releases/download/2.3.0L/Prime_World_Classic_Test.tar.gz
+    - archive: https://github.com/Prime-World-Classic/Prime-World/releases/download/2.3.0L/prime-world-classic.tar.xz
 
   game:
     arch: win32
