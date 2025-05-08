@@ -16,5 +16,6 @@ script:
       file: archive
   - execute:
       command: $GAMEDIR/update.sh
+  install_complete_text: Most users need to set their screen resolution in Prime World Classic right mouse click -> System options -> Gamescope
 version: Prime World Classic
 year: 2024
