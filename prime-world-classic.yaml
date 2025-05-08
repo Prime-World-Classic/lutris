@@ -1,6 +1,6 @@
 description: 'Prime World Classic is a fork of Prime World: https://github.com/Prime-World-Classic'
 game_slug: prime-world
-slug: prime-world
+slug: prime-world-classic
 name: Prime World
 notes: '- version 2.3'
 runner: wine
